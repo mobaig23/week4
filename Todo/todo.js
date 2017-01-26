@@ -5,7 +5,7 @@ $(function() {
     event.preventDefault()
     var elementThatWasClicked = $(this)
     console.log(elementThatWasClicked)
-    elementThatWasClicked.remove()
+    elementThatWasClicked.parent().remove()
   })
 
 })
