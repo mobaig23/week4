@@ -30,5 +30,12 @@ window.getDeck = function() {
 // END DO NOT CHANGE CODE
 
 $(function() {
-  // Your code goes here!
+  $(".shuffle").on("click", function(event) {
+  event.preventDefault()
+  $("#c1").attr("src", "http://golearntocode.com/images/cards/" + getDeck(2,10) + ".png")
+  $("#c2").attr("src", "http://golearntocode.com/images/cards/" + getDeck(2,10) + ".png")
+  $("#c3").attr("src", "http://golearntocode.com/images/cards/" + getDeck(2,10) + ".png")
+  $("#c4").attr("src", "http://golearntocode.com/images/cards/" + getDeck(2,10) + ".png")
+  $("#c5").attr("src", "http://golearntocode.com/images/cards/" + getDeck(2,10) + ".png")
+  })
 })
