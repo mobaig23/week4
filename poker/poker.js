@@ -30,7 +30,7 @@ window.getDeck = function() {
 // END DO NOT CHANGE CODE
 
 $(function() {
-  $(".deal").on("click", function(event) {
+  $("a").on("click", function(event) {
   event.preventDefault()
   $("#c1").attr("src", "http://golearntocode.com/images/cards/" + getDeck(2,10) + ".png")
   $("#c2").attr("src", "http://golearntocode.com/images/cards/" + getDeck(2,10) + ".png")
